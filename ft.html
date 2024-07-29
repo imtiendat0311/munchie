@@ -678,30 +678,46 @@ body.single-product button.single_add_to_cart_button.button.alt {
 			</div>
 			<div>
 				<form action="https://formcarry.com/s/NEM7piVngsW" method="POST" enctype="multipart/form-data" style="display: flex; flex-direction: column; gap:5px;">
+<div style="display: flex; width: 100%; gap: 5px;">					<label style="text-align: left; flex-grow: 1;">
+Your First Name* <input type="text" name="fname" placeholder="John" required>
+</label>
+<label style="text-align: left; flex-grow: 1;">
+Your Last Name* <input type="text" name="lname" placeholder="Doe" required>
+</label>
+</div>
 <label style="text-align: left;">
-Your First Name: <input type="text" name="fname" placeholder="John">
+Your email* <input type="email" name="email" placeholder="johndoe@gmail.com" required>
 </label>
 <label style="text-align: left;">
-Your Last Name: <input type="text" name="lname" placeholder="Doe">
+Your Phone Number* <input type="tel" name="phone" placeholder="+1 (759) 947-6849" required>
 </label>
 <label style="text-align: left;">
-Your email: <input type="email" name="email" placeholder="johndoe@gmail.com">
+Event Address* <input type="text" name="address" placeholder="2256 Valley View Drive" required>
 </label>
 <label style="text-align: left;">
-Your Phone Number: <input type="tel" name="phone" placeholder="+1 (759) 947-6849">
+Address Line 2 <input type="text" name="address2" placeholder="optional">
 </label>
-<label style="text-align: left;">
-Your Address: <input type="text" name="address" placeholder="2256 Valley View Drive, Boston,MA 02114" >
+<div style="display: flex; gap:5px">
+	<label style="text-align: left; flex-grow: 1;">
+City* <input type="text" name="city" placeholder="Boston" required>
 </label>
+<label style="text-align: left; flex-grow: 1;">
+State* <input type="text" name="state" placeholder="MI" required>
+</label>
+<label style="text-align: left; flex-grow: 1;">
+Zipcode*<input type="number" name="zipcode" placeholder="02108" required>
+</label>
+</div>
+
 <label style="text-align: left;">
-Date of Event: <input type="date" name="date" placeholder="">
+Date of Event*: <input type="date" name="date" placeholder="" required>
 </label>
 <div style="display: flex; gap: 10px;">
 <label>
-Start Time: <input type="time" name="start">
+Start Time*: <input type="time" name="start" required>
 </label>
 <label>
-End Time: <input type="time" name="end">
+End Time*: <input type="time" name="end" required>
 </label>
 </div>
 <label style="text-align: left;">
